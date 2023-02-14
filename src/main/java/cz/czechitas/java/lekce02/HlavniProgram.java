@@ -14,8 +14,6 @@ public class HlavniProgram {
             posunSeNaDalsiDomek();
         }
 
-
-
     }
 
     private void vychoziBodProStrechu() {
