@@ -14,6 +14,34 @@ public class HlavniProgram {
             posunSeNaDalsiDomek();
         }
 
+        //nakresli prasatko
+        zofka.penUp();
+        zofka.turnLeft(90);
+        zofka.move(800);
+        zofka.penDown();
+        nakresliCtverec();
+        zofka.penUp();
+        zofka.move(100);
+        nakresliStrechu();
+        zofka.turnRight(135);
+        zofka.move(100);
+        nakresliNozicky();
+        zofka.turnRight(135);
+        zofka.move(100);
+        zofka.turnRight(90);
+        nakresliNozicky();
+
+    }
+
+    private void nakresliNozicky() {
+        zofka.turnRight(45);
+        zofka.move(30);
+        zofka.turnRight(180);
+        zofka.move(30);
+        zofka.turnRight(90);
+        zofka.move(30);
+        zofka.turnRight(180);
+        zofka.move(30);
     }
 
     private void vychoziBodProStrechu() {
